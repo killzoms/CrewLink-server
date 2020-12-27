@@ -19,6 +19,8 @@ RUN yarn install
 # Compile project
 RUN yarn compile
 
+ENV ADDRESS=9736
+
 # Tell the Docker engine the default port is 9736
 EXPOSE 9736
 
